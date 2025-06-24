@@ -2,43 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content=" IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANUSHKA PRAJAPATI</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/boxicons@2.14/css/boxicons.mim.css" rel="stylesheet">
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
 </head>
 <body>
     <header class="header">
-        <a href ="#" class ="logo">ANUSHKA PRAJAPATI</a>
+        <a href="#" class="logo">Portfolio</a>
+
         <nav class="navbar">
-            <a href="#">HOME</a>
-            <a href="#">ABOUT</a>
-            <a href="#">SKILL</a>
-            <a href="#">PORTFOLIO</a>
-            <a href="#">CONTACT</a>
+            <a href="#home" style="--l:1" class="active">Home</a>
+            <a href="#about" style="--l:2">About</a>
+            <a href="#skills" style="--l:3">Skills</a>
+            <a href="#projects" style="--l:4">Project</a>
+            <a href="#contact" style="--l:5">Contact</a>
         </nav>
     </header>
-    <section class="HOME">
-        <div class ="HOME-CONTENT">
-            <h3>HELLO,It's me</h3>
-            <h1>Anushka Prajapati</h1>
-            <h3>And I'm a <span class="text"></span></h3>
-            <p>i'm a web developer with extend experinece for over .fronted developer.</p>
-            <div class="HOME-SC1">
-                <a href="#"> <i class='bx bxl-facebook'</a>
-                    <a href="#"> <i class='bx bxl-twitter'</a>
-                        <a href="#"> <i class='bx bxl-whatsapp'</a>
-                            <a href="#"> <i class='bx bxl-tiktok'</a>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1> <strong>Anushka Prajapati</strong></h1>
+            <h3>And I'm a 
+                <span class="text-slider">Fronted Developer, Web Developer</span>
+                <strong class="text"></strong>
+            </h3>
+            <p>I'm a Fronted Developer.
+                <br>expertise is to create a web application...
+            </p>
+            <div class="home-sc1">
+                <a href="#" style="--l:7"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/manushka01" style="--l:8"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' style="--l:9"></i></a>
+                
             </div>
-            <a href ="#" class="btn-box"> more about me</a>
+            <a href="#about" class="btn-Box">More About me</a>
+            
         </div>
         <div class="home-img">
-            <img src="anushka photo.jpg" alt="">
+            <img src="images/anushkaphoto.jpg" alt="">
         </div>
-
     </section>
-    <script src="app.js"></script>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/anushkaphoto.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>
+                About <span>Me</span>
+            </h2>
+            <h4>Frontend Stack Developer</h4>
+            <p>As a B.Tech CSE student, I am passionate about the tech industry and driven to launch a successful career in this field. With a strong focus in Web Development, I am constantly seeking new challenges and opportunities to expand my skill set. I thrive the most in collaborative environments and am committed to contributing to the community by solving real world problems and working alongside like-minded individuals.</p>
+            <a href="#" class="btn-Box">More About me</a>
+        </div>
+    </section>
+    
+    <section class="skills" id="skills">
+        <h1>My <span>Skills</span> </h1>
+        <div class="container1" id="skills">
+                <div class="slist">
+                    <div class="info">
+                        <a href="#" style="--l:1" class="icon1"><img src="https://img.icons8.com/?size=100&id=25423&format=png&color=000000" alt=""></a>
+                        <a href="#" style="--l:2"><i class='bx bxl-c-plus-plus'></i></a>
+                        <a href="#" style="--l:3"><i class='bx bxl-python'></i></a>
+                        <a href="#" style="--l:4"><i class='bx bxl-html5' ></i></a>
+                        <a href="#" style="--l:5"><i class='bx bxl-css3' ></i></a>
+                        <a href="#" style="--l:6"><i class='bx bxl-javascript' ></i></a>
+                    </div>
+                </div>
+            
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div id="project" class="main-text">
+            <h2>My <span>Projects</span></h2>
+            <div class="project-content">
+                <div class="row">
+                    <img class="pimg" src="images/Screenshot 2025-04-08 110113.png" alt="">
+                    <div class="layer">
+                        <h3>FOOD APP</h3>
+
+                        <p>Created an interactive Recipe Finder web application to help users discover meals tailored to their dietary preferences, cuisine, meal type, and health labels.<br>It is created using HTML, CSS and JS.<br>Designed with user-friendliness and responsiveness in mind.</p>
+                        <a href="file:///C:/Users/ckprj/Downloads/Recipe-Finder-App-main/Recipe-Finder-App-main/index.html"><i class='bx bx-link-external' style="color:aliceblue;">Visit project</i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="pimg" src="images/Screenshot 2025-03-10 211311.png" alt="">
+                    <div class="layer">
+                        <h3>COFFEE WEBSITE</h3>
+
+                        <p> Created a basic coffee shop website using HTML and CSS. <br> It includes sections like Home, About, Menu, Order, and Contact.<br> The website also shows services with images and has a button to order coffee.</p>
+                        <a href="file:///C:/Users/ckprj/Documents/coffee%20website/index.html"><i class='bx bx-link-external' style="color:aliceblue;">Visit project</i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <img class="pimg" src="images/Screenshot 2025-04-08 110520.png" alt="">
+                    <div class="layer">
+                        <h3>CHAT BOT</h3>
+                        
+
+                        <p>Developed a futuristic virtual assistant interface named JARVIS using HTML, CSS, and JavaScript.<br>Features a sleek, cyber-inspired UI and voice interaction capability for enhanced user experience
+                      <br>
+                      Designed with a focus on responsive layout and immersive visuals.</p>
+                        <a href="file:///C:/Users/ckprj/Desktop/chatbot/chatbot/home.html"><i class='bx bx-link-external' style="color:aliceblue;">Visit project</i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact <span> Me</span></h2>
+        <div class="contact-text">
+            <h4>Let's work together!!</h4>
+            <p>Kindly share query and opinion through mail or you can connect with linkedin.</p>
+            <div class="contact-list">
+                <p class="con-link"><a href="mailto:prajapatianu928@gmail.com"><i class='bx bxl-gmail'></i> prajapatianu928@gmail.com</a></p>
+                <p class="con-link"><a href="www.linkedin.com/in/AnushkaPrajapati17"><i class='bx bxl-linkedin-square' ></i>Anushka Prajapati</a></p>
+                <p class="con-link"><a href="https://github.com/manushka01"><i class='bx bxl-github-square' ></i>Anushka Prajapati</a></p>
+
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <textarea type="text" placeholder="Enter your subject" required></textarea>
+                <button type="submit" value="Submit" class="send">Submit</button>
+
+            </form>
+        </div>
+    </section>
+    <script src="./typed.js-master/lib/typed.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
-</html>
+</html>`                                                                                                                                                                                                                                                    
+    
+
+
+
+
